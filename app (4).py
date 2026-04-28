@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 import nltk
-import re
-from nltk.corpus import stopwords
+nltk.download('stopwords')
+import r
 
 nltk.download('stopwords', quiet=True)
 
