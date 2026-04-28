@@ -1,9 +1,8 @@
 import streamlit as st
 import requests
 import nltk
-nltk.download('stopwords')
 import r
-
+from nltk.corpus import stopwords
 nltk.download('stopwords', quiet=True)
 
 # --- Re-define all necessary variables and functions for the Streamlit app ---
